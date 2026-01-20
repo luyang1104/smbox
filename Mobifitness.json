@@ -1,28 +1,15 @@
 {
-  "route": {
-    "rules": [
-      {
-        "domain": [
-          "mobifitness.com",
-          "mobi-fitness.com",
-          "mobisport.cn"
-        ],
-        "domain_suffix": [
-          ".mobifitness.com",
-          ".mobi-fitness.com",
-          ".mobisport.cn"
-        ],
-        "action": "route",
-        "outbound": "direct"
-      },
-      // 如果你是安卓用户，建议增加包名匹配
-      {
-        "package_name": [
-          "com.mobi.fitness" 
-        ],
-        "action": "route",
-        "outbound": "direct"
-      }
-    ]
-  }
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "mobifitness.com",
+        "mobi-fitness.com",
+        "mobisport.cn"
+      ],
+      "package_name": [
+        "com.mobi.fitness"
+      ]
+    }
+  ]
 }
