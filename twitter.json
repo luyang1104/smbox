@@ -1,38 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "rules": [
     {
-      "domain": [
-        "x.com",
-        "twitter.com"
-      ],
       "domain_suffix": [
-        ".x.com",
-        ".twitter.com",
-        ".t.co",
-        ".twimg.com",
-        ".twtrdns.net",
-        ".twttr.com",
-        ".periscope.tv",
-        ".pscp.tv",
-        ".vine.co",
-        ".tweetdeck.com",
-        ".abs.twimg.com",
-        ".video.twimg.com",
-        ".pbs.twimg.com"
-      ],
-      "domain_keyword": [
-        "twitter",
-        "periscope"
-      ],
-      "ip_cidr": [
-        "199.16.156.0/22",
-        "199.59.148.0/22",
-        "199.96.56.0/21",
-        "202.160.128.0/22",
-        "209.237.238.0/24",
-        "69.195.160.0/19",
-        "104.244.42.0/21"
+        "twitter.jp",
+        "x.com",
+        "t.co",
+        "twimg.com",
+        "tweetdeck.com",
+        "twitter.com",
+        "twtrdns.net",
+        "twttr.com",
+        "vine.co",
+        "ads-twitter.com",
+        "periscope.tv",
+        "pscp.tv",
+        "twitpic.com",
+        "twvid.com",
+        "cms-twdigitalassets.com"
       ]
     }
   ]
