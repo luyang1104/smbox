@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "domain": [
+        "x.com",
+        "twitter.com"
+      ],
+      "domain_suffix": [
+        ".x.com",
+        ".twitter.com",
+        ".t.co",          // 核心短链接
+        ".twimg.com",     // 关键：所有图片和静态资源
+        ".twtrdns.net",   // 内部 DNS
+        ".twttr.com",     // 旧版保留域名
+        ".periscope.tv",  // 直播服务
+        ".pscp.tv",       // 直播相关
+        ".vine.co",       // 视频遗留
+        ".tweetdeck.com"  // 推特推土机/专业版
+      ],
+      "domain_keyword": [
+        "twitter",
+        "periscope"
+      ],
+      "ip_cidr": [
+        "199.16.156.0/22",
+        "199.59.148.0/22",
+        "199.96.56.0/21",
+        "202.160.128.0/22",
+        "209.237.238.0/24"
+      ],
+      "outbound": "proxy" 
+    }
+  ]
+}
