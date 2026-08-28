@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_keyword": [
+        "tracker"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "totheglory.im",
+        "ourbits.club",
+        "springsunday.net",
+        "hdhome.org",
+        "zmpt.cc",
+        "audiences.me",
+        "chdbits.xyz",
+        "dmhy.best",
+        "hddolby.com",
+        "orcinusorca.org",
+        "ubits.club",
+        "sunnytk.top",
+        "zhuque.in"
+      ]
+    }
+  ]
+}
